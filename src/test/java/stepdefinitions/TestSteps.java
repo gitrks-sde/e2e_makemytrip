@@ -101,7 +101,7 @@ public class TestSteps extends BaseClass{
 		}
 	}
 	
-	@AfterStep
+	//@AfterStep
 	public void iWillExecuteAfterEachStep(Scenario scenario)
 	{
 		

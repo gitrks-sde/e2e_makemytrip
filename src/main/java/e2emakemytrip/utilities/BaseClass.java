@@ -18,7 +18,7 @@ public class BaseClass extends CommonActions {
 	protected static Logger logger= LogManager.getLogger();
 	private String url="https://www.goibibo.com/flights/";
 	
-	@BeforeTest
+	//@BeforeTest
 	public void loadBrowser()
 	{
 		System.setProperty("webdriver.chrome.diver", 
