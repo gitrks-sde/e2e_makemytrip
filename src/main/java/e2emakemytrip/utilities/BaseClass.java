@@ -49,7 +49,7 @@ public class BaseClass extends CommonActions {
 //	
 //	}
 
-	@AfterTest
+	//@AfterTest
 	public void closeConnection() throws InterruptedException
 	{
 		Thread.sleep(5000);
